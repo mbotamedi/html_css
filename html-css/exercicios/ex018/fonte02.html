@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fonts/Mf Love Song.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att (Apple Advanced Typography) 
+                - svg
+            */
+        }
+        @font-face {
+            font-family: 'Loves';
+            src: url('fonts/Be My Valentine.otf') format('opentype'), url('fonts/Be My Valentine.ttf') format('turetype');
+            font-weight: normal;
+            font-style: normal;        
+        }
+        @font-face {
+            font-family: 'Loves_V';
+            src: url('fonts/Valentine.otf') format('opentype'), url('fonts/Valentine.ttf') format('turetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        h1{
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'Loves_V', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        p{
+            font-family: 'Loves', Times, serif;
+            font-size: 1.5em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente ad ipsa praesentium dolorum maiores repellat omnis veritatis vero qui fugit, in deserunt assumenda autem dolore, temporibus, quae repellendus pariatur quibusdam?</p>
+    <h2>Título Teste</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni voluptatibus quas quis error deleniti tenetur, sit officia quod! Excepturi reiciendis doloremque nulla accusamus odio delectus sunt tempore omnis quibusdam beatae?</p>
+</body>
+</html>
