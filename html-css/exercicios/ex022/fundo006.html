@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
          body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+              color > image > position > repeat > [size]
+              > attachment
+              */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
          }    
          
          main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +36,7 @@
 <body>
     <main>
         <h1>Teste imagem de Fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, commodi aspernatur iste voluptatem officiis placeat laborum sint ipsum est, temporibus velit? Dignissimos commodi esse, voluptatem praesentium velit exercitationem porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugiat perferendis porro voluptatem neque! Nihil officiis reprehenderit dignissimos laborum, sapiente placeat, repellendus tenetur harum, molestias nostrum quis numquam minus possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum architecto atque velit, odio ipsa quasi voluptates dolorum dicta. Qui perferendis repellat unde placeat porro laboriosam officia expedita error voluptatum enim.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, commodi aspernatur iste voluptatem officiis placeat laborum sint ipsum est, temporibus velit? Dignissimos commodi esse, voluptatem praesentium velit exercitationem porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugiat perferendis porro voluptatem neque! Nihil officiis reprehenderit dignissimos laborum, sapiente placeat, repellendus tenetur harum, molestias nostrum quis numquam minus possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum architecto atque velit, odio ipsa quasi voluptates dolorum dicta. Qui perferendis repellat unde placeat porro laboriosam officia expedita error voluptatum enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas earum enim possimus non ratione consectetur saepe. Necessitatibus nemo cum accusamus exercitationem accusantium culpa qui! Vel sapiente optio obcaecati quas libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas et saepe fuga sequi repudiandae minima atque? Dolore ad sapiente excepturi? Rerum consectetur ducimus earum dignissimos, molestias dolorum in beatae laborum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam delectus maxime quam laboriosam. Consequatur dolores eveniet fugit similique accusamus inventore quae soluta delectus, laboriosam necessitatibus temporibus adipisci illo. Perspiciatis, totam?</p>
     </main>
 </body>
 </html>
