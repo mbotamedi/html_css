@@ -18,8 +18,22 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
@@ -44,13 +58,14 @@ main {
     width: 90vw;
     background-color: white;
     margin: auto;
-    margin: 10px
+    margin: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
 article > h2 {
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 article > p {
